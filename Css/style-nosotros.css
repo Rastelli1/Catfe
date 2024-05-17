@@ -1,0 +1,40 @@
+.intro{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro img{
+    width: 80%;
+    border-radius: 20px;
+}
+.intro h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    margin: 20px;
+    padding: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.intro p{
+    width: 80%;
+    text-align: start;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;;
+    color: bisque;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:800px) {
+    .intro p{
+        font-size: 15px;
+    }
+    .intro h1{
+        font-size: 40px;
+    }
+}

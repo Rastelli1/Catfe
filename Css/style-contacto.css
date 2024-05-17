@@ -1,0 +1,141 @@
+.section-contacto{
+    display: block;
+    padding: 2rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.section-contacto h1 ,.section-contacto p{
+    color: antiquewhite;
+}
+
+.section-contacto h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    padding: 20px 0 20px 0;
+}
+.section-contacto p{
+    font-size: 40px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px 0 20px 0;
+}
+.box-img{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    align-items: center;
+    padding: 10rem 0 4rem 0;
+}
+.section-contacto .box-img img{
+    width: 60%;
+    
+}
+.box-social{
+    list-style-type: none;
+    width: 20%;
+    padding-bottom: 20%;
+}
+.box-social h1, #telefono h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+#telefono  p{
+    font-size: 20px;
+    display: flex;
+}
+#telefono{
+    width: 20%;
+    padding-bottom: 20%;
+}
+.como-llegar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.como-llegar h1 {
+    color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
+}
+
+.como-llegar p {
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+iframe {
+    margin: 5rem 0 5rem 0;
+    width: 100%; 
+    max-width: 1200px;
+    height: 800px; 
+}
+
+@media screen and (max-width:1200px) {
+   
+    .section-contacto h1{
+        font-size: 30px;
+    }
+    .section-contacto p{
+        font-size: 20px;
+    }
+    .box-social h1, #telefono h1{
+        font-size: 20px;
+    }
+    #telefono  p{
+        font-size: 15px;
+    }
+
+    .como-llegar h1 {
+        font-size: 30px;
+    }
+    
+    .como-llegar p {
+        font-size: 20px;
+    }
+    .box-img{
+        
+        padding: 5rem 0 5rem 0;
+    }
+    iframe {
+        margin: 5rem 0 5rem 0;
+        width: 100%; 
+        max-width: 800px;
+        height: 400px; 
+    }
+}
+@media screen and (max-width:600px) {
+   
+    .section-contacto h1{
+        font-size: 20px !important;
+    }
+    .section-contacto p{
+        font-size: 15px !important;
+    }
+    .box-social h1, #telefono h1{
+        font-size: 15px !important;
+    }
+    #telefono  p{
+        font-size: 10px !important;
+    }
+
+    .como-llegar h1 {
+        font-size: 30px !important;
+    }
+    
+    .como-llegar p {
+        font-size: 20px !important;
+    }
+    .box-img{
+        
+        padding: 5rem 0 5rem 0 !important;
+    }
+}
